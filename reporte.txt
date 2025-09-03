@@ -1,0 +1,688 @@
+    1  sudo add-apt-repository ppa:yannubuntu/boot-repair
+    2  sudo apt install boot-repair
+    3  sudo add-apt-repository ppa:trebelnik-stefina/grub-customizer
+    4  sudo apt update
+    5  sudo apt install grub-customizer
+    6  ls
+    7  cd Descargas/
+    8  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    9  sudo apt install curl
+   10  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   11  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   12  sudo apt update
+   13  sudo apt install brave-browser
+   14  sudo apt update
+   15  sudo timedatectl set-local-rtc 1
+   16  sudo nautilus
+   17  sudo apt install git 
+   18  sudo apt update
+   19  sudo apt-get remove docker docker-engine docker.io containerd runc
+   20  sudo apt install gnome-terminal
+   21  sudo apt remove docker-desktop
+   22  rm -r $HOME/.docker/desktop
+   23  sudo rm /usr/local/bin/com.docker.cli
+   24  sudo apt purge docker-desktop
+   25  sudo apt-get update
+   26  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+   27  cd / Descargas/
+   28  ls
+   29  cd Descargas/
+   30  ls
+   31  sudo dpkg -i docker-desktop-4.16.2-amd64.deb 
+   32  sudo apt-get update
+   33  sudo apt-get install ./docker-desktop-4.16.2-amd64.deb 
+   34  sudo apt install qemu-system-x86
+   35  sudo apt-get -y install qemu-system-x86
+   36  sudo apt -y install qemu-system-x86
+   37  sudo apt update
+   38  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   39  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   40  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   41  apt-cache policy docker-ce
+   42  sudo apt install docker-ce
+   43  sudo systemctl status docker
+   44  ./studio.sh 
+   45  System.setProperty("https.protocols", "TLSv1 TLSv1.1 TLSv1.2 TLSv1.3");
+   46  System.setProperty("https.protocols" "TLSv1 TLSv1.1 TLSv1.2 TLSv1.3");
+   47  System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
+   48  ./studio.sh 
+   49  java --v
+   50  java -v
+   51  java --version
+   52  javac --version
+   53  sudo docker run hello-word
+   54  sudo docker run hello-wordl
+   55  sudo docker run hello-world
+   56  sudo docker run hello-world 
+   57  sudo docker ps
+   58  sudo docker ps -a
+   59  sudo docker --version
+   60  git config --global --unset credential.helper
+   61  git config show
+   62  git config --show
+   63  git config --global 
+   64  git conf
+   65  git config --list
+   66  git --v
+   67  git config --list --show-origin
+   68  git config --global --list --show-origin
+   69  git config  ---system --global --list --show-origin 
+   70  git config  --system --global --list --show-origin 
+   71  git config  --system --list --show-origin 
+   72  ls
+   73  cd
+   74  git config  --system --global --list --show-origin 
+   75  ls 
+   76  docker info
+   77  docker --version
+   78  sudo apt install default-jre
+   79  egrep -c '(vmx|svm)' /proc/cpuinfo
+   80  kvm-ok
+   81  sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+   82  kvm-ok
+   83  egrep -c '(vmx|svm)' /proc/cpuinfo
+   84  kvm-ok
+   85  history
+   86  sudo nautilus
+   87  sudo gedit /usr/share/applications/Spring.desktop
+   88  sudo nautilus
+   89  sudo apt update
+   90  sudo apt install openjdk-11-jdk
+   91  java -version
+   92  sudo adduser Moviles 
+   93  sudo adduser moviles 
+   94  exit
+   95  ./studio.sh 
+   96  sudo visudo 
+   97  sudo usermod -aG docker ${moviles}
+   98  sudo usermod -aG docker ${USER}
+   99  less /etc/group
+  100  sudo moviles
+  101  sudo su 
+  102  sudo su moviles
+  103  sudo usermod -aG docker moviles
+  104  groups
+  105  sudo su moviles 
+  106  java
+  107  java -v
+  108  java --ersion
+  109  java --version
+  110  javac -v
+  111  javac --version
+  112  sudo apt update
+  113  sudo apt install node js
+  114  sudo apt install nodejs
+  115  node -v
+  116  sudo apt install npm
+  117  sudo apt install curl
+  118  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+  119  nvm
+  120  exit
+  121  nvm
+  122  nvm install 
+  123  nvm install lasted
+  124  nvm install node
+  125  nodejs
+  126  sudo docker 
+  127  node
+  128  exit
+  129  npm install express-generator -g
+  130  npm unistall express-generator 
+  131  npm uninstall express-generator 
+  132  npm uninstall -g express-generator 
+  133  ls
+  134  cd /home/
+  135  ls
+  136  cd moviles/
+  137  sudo su
+  138  sudo dpkg --configure -a
+  139  sudo apt-get install -fy
+  140  sudo apt-get purge --allow-remove-essential -y grub-com*
+  141  sudo apt-get purge --allow-remove-essential -y grub2-com*
+  142  sudo apt-get purge --allow-remove-essential -y shim-signed
+  143  sudo apt-get purge --allow-remove-essential -y grub-common:*
+  144  sudo apt-get purge --allow-remove-essential -y grub2-common:*
+  145  sudo apt-get install -y grub-efi os-prober
+  146  code.
+  147  code .
+  148  ls
+  149  git clone https://github.com/Programacion-Web-02-2023/portafolio-00090121-Auxi.git
+  150  git config name
+  151  git add .
+  152  git commit -m "Parte 1"
+  153  git config user.email
+  154  git config user.email "00090121@uca.edu.sv"
+  155  git config user.name "00090121-Auxi"
+  156  git config --global user.name "00090121-Auxi"
+  157  git config --global user.email "00090121@uca.edu.sv"
+  158  git add .
+  159  git commit -m "Parte header"
+  160  git push
+  161  git add .
+  162  git commit -m "Parte tarjetas"
+  163  git push
+  164  git add .
+  165  git commit -m "Parte inferior y testimonials"
+  166  git push
+  167  git add .
+  168  git commit -m "Parte final"
+  169  git push
+  170  git config --global --unset user.name
+  171  git config --global --unset user.email
+  172  git config --global user.name "00090121-Auxi"
+  173  git config --global user.email "00090121@uca.edu.sv"
+  174  git config --global user.name
+  175  git config --global user.email
+  176  git add .
+  177  git commit -m "Parte 1"
+  178  git push
+  179  ls
+  180  npm run start
+  181  npm run start
+  182  npm run install
+  183  npm install
+  184  npm run start
+  185  ced
+  186  cd
+  187  sudo systemctl status apache2
+  188  lsubs
+  189  lsusb
+  190  ls
+  191  cd /var/
+  192  ls
+  193  cd
+  194  cd /etc/
+  195  ls
+  196  cd apache2/
+  197  ls
+  198  su admindei
+  199  git config user.name ¨AntonioMelgarMendez¨
+  200  git init
+  201  ls
+  202  cd Descargas/
+  203  cd ..
+  204  ls
+  205  cd Escritorio/
+  206  ls
+  207  git init
+  208  git config user.name ¨AntonioMelgarMendez¨
+  209  git config user.gmail ¨00009123@uca.edu.sv¨
+  210  ls
+  211  mkdir Parcial1
+  212  ls
+  213  cd Parcial1/
+  214  git init
+  215  git config user.name ¨AntonioMelgarMendez¨
+  216  git config user.gmail ¨00009123@uca.edu.sv¨
+  217  ls
+  218  cd
+  219  cd Pls
+  220  ls
+  221  cd Escritorio/
+  222  ls
+  223  Cd Parcial1/
+  224  cd Escritorio
+  225  ls
+  226  cd Parcial1/
+  227  ls
+  228  cd Parcial1/
+  229  ls
+  230  git add .
+  231  git commit -m ¨funciones basicas¨
+  232  git commit -m ¨funciones basicas"
+  233  asd
+  234  das
+  235  ls
+  236  cd Escritorio/
+  237  ls
+  238  cd Parcial1/
+  239  ls
+  240  cd Parcial1/
+  241  ls
+  242  git add .
+  243  git commit -m "push"
+  244  git push
+  245  git remote add origin https://github.com/AntonioMelgarMendez/PrimerParcialPOOMelgarMendez00009123.git
+  246  git branch -M main
+  247  git push -u origin main
+  248  git init
+  249  git add .
+  250  git commit -m "primeras funciones"
+  251  git push
+  252  git remote add origin https://github.com/AntonioMelgarMendez/PrimerParcialPOOMelgarMendez00009123.git
+  253  git branch -M main
+  254  git push -u origin main
+  255  git add .
+  256  git commit -m "push"
+  257  git push
+  258  git add .
+  259  git commit -m "push"
+  260  git push
+  261  git add .
+  262  git commit -m "version final"
+  263  git push
+  264  java --version
+  265  cd Escritorio/
+  266  ls
+  267  mkdir Laboratorios
+  268  cd Laboratorios/
+  269  ls
+  270  git config --global --unset
+  271  git config --global --unset user.name
+  272  git config --global --unset user.email
+  273  git clone https://github.com/Laboratorios-POO-01-2024/laboratorio-04-polimorfismo-y-clases-abstractas-grupo-03-sanddoval12.git
+  274  cd laboratorio-04-polimorfismo-y-clases-abstractas-grupo-03-sanddoval12/
+  275  ls
+  276  git checkout master
+  277  ls
+  278  cd src/
+  279  ls
+  280  javac Main.java
+  281  java Main
+  282  cd ../
+  283  rm -rf laboratorio-04-polimorfismo-y-clases-abstractas-grupo-03-sanddoval12/
+  284  git clone https://github.com/Laboratorios-POO-01-2024/laboratorio-04-polimorfismo-y-clases-abstractas-grupo-03-EduardoSig2210.git
+  285  cd laboratorio-04-polimorfismo-y-clases-abstractas-grupo-03-EduardoSig2210/
+  286  ls
+  287  cd src/
+  288  ls
+  289  javac Main.java
+  290  java Main
+  291  cd 
+  292  cd Escritorio/
+  293  rm -rf Laboratorios/
+  294  git config --global --get user.name
+  295  yarn
+  296  npm install --global yarn
+  297  npm install -g npm@10.7.0 
+  298  npm install npm -g
+  299  sudo npm install -g n
+  300  npm install -g n
+  301  yarn -v
+  302  yarn create vite
+  303  node -v
+  304  npm install -g npm@10.7.0 
+  305  npm install -g npm
+  306  npm install -g n
+  307  n stable
+  308  npm create vite@latest
+  309  npm install npm@latest
+  310  npm update -g npm
+  311  curl https://www.npmjs.com/install.sh | sh
+  312  npm update -g npm
+  313  node -v
+  314  nvm install NEW_VERSION --reinstall-packages-from=OLD_VERSION
+  315  nvm install 20.5.0 --reinstall-packages-from=6.4
+  316  nvm install 20.5.0 --reinstall-packages-from=19.7.0
+  317  node -v
+  318  yarn
+  319  mkdir aaaaaaaaaaaaaa
+  320  cd ./aaaaaaaaaaaaaa/
+  321  yarn create vite
+  322  git config --global user.name "cam-vasquez"
+  323  git config --global user.email 00065221@uca.edu.sv
+  324  npm i
+  325  npm run dev
+  326  git revert HEAD~1...HEAD }
+  327  git revert HEAD~1...HEAD 
+  328  ls
+  329  git status
+  330  git revert --skipt
+  331  git revert --skip
+  332  git status
+  333  git checkout -b maria
+  334  ls
+  335  git status
+  336  git add. 
+  337  git add .
+  338  git commit -m "aaa"
+  339  git status
+  340  git log
+  341  git checkout cc4cb92fca4400a7688b6daf4de11e531b7dc12d 
+  342  ls
+  343  git status
+  344  git log
+  345  git checkout a59a2f40ad65a2cf34e45f3da1f499d81b585d99
+  346  ls
+  347  git statys
+  348  git status
+  349  git checkout main
+  350  git status
+  351  git log
+  352  ls
+  353  code .
+  354  ls
+  355  cd ..
+  356  ls
+  357  code .
+  358  git status
+  359  git add .
+  360  git commit -m "Fix: npm error"
+  361  git status
+  362  git push 
+  363  git config --global user.name "AAAAAAAAAAAAAAAAAA"
+  364  git config --global user.email 000000000000000000000000@uca.edu.sv
+  365  git status
+  366  npx create-react-app my-app
+  367  ls
+  368  npm audit
+  369  cd my-app/
+  370  npm audit
+  371  npm audit fix --force
+  372  npm audit
+  373  npm audit fix --force
+  374  git clone https://github.com/FlowHood/FlowHood.git
+  375  ls
+  376  cd ./FlowHood/
+  377  ls
+  378  cd ./Client/
+  379  yarn create vite
+  380  ls
+  381  yarn
+  382  yarn dev
+  383  npm install -D tailwindcss postcss autoprefixer
+  384  npx tailwindcss init -p
+  385  ls
+  386  code .
+  387  ls
+  388  git status
+  389  cd ..
+  390  code .
+  391  ls
+  392  git status
+  393  git add .
+  394  git commit -m "Add: Project structure for react.js"
+  395  git push
+  396  git clone https://github.com/gabiserrano/SegundoParcialPOO_SerranoGuevara_00090322.git
+  397  git config --global user.name "gabiserrano"
+  398  git config --global user.email "00090322@uca.edu.sv"
+  399  git add .
+  400  git commit -m "Empresa Parcial"
+  401  git push -u origin main
+  402  git config --global --unset gabiserrano
+  403  git config --global --unset gabiserrano"
+  404  git config --global --unset "gabiserrano"
+  405  git config --global --unset "00090322@uca.edu.sv"
+  406  git clone https://github.com/rebecaeta/SegundoParcialPOO_TorresAngel_00225023.git
+  407  git add .
+  408  git config --global user.name"rebecaeta"
+  409  git config --global user.email"00225023@uca.edu.sv"
+  410  git add .
+  411  git commit -m"Parcial 2"
+  412  git push
+  413  git config --global user.email "00225023@uca.edu.sv"
+  414  git config --global user.name "rebecaeta"
+  415  git config --global user.email "00225023@uca.edu.sv"
+  416  git add .
+  417  git commit -m"Parcial 2"
+  418  git push
+  419  historyPublicKey.txt
+  420  sudo apt-get install gnupg
+  421  gpg --version
+  422  gpg --full-generate-key
+  423  fpr
+  424  $fpr
+  425  gpg --edit-key <key>
+  426  gpg --edit-key 00183223@uca.edu.sv
+  427  gpg --edit-key 00006422@uca.edu.sv
+  428  gpg --edit-key 00146322@uca.edu.sv
+  429  gpg --import ~/Downloads/00006422@uca.edu.sv
+  430  gpg --import ~/Downloads/Llaves-main/00006422@uca.edu.sv
+  431  gpg --import ~/Descargas/Llaves-main/00006422@uca.edu.sv
+  432  /home/uca/Descargas/Llaves-main/00006422@uca.edu.sv
+  433  ~/home/uca/Descargas/Llaves-main/00006422@uca.edu.sv
+  434  /home/uca/Descargas/Llaves-main/eliaskey.asc
+  435  /home/uca/Descargas/Llaves-main/raulkey.gpg
+  436  gpg --import ~/Descargas/Llaves-main/eliaskey.asc 
+  437  gpg --import ~/Descargas/Llaves-main/raul.gpg 
+  438  gpg --import ~/Descargas/Llaves-main/raulkey.gpg 
+  439  gpg --edit-key raulkey.gpg
+  440  gpg --edit-key 00006422@uca.edu.sv
+  441  gpg --edit-key 00145322@uca.edu.sv
+  442  gpg --edit-key 00146322@uca.edu.sv
+  443  gpg --edit-key 00006422@uca.edu.sv
+  444  gpg --edit-key 00146322@uca.edu.sv
+  445  gpg --list-key
+  446  git clone https://github.com/HenryMauricio2004/Lab1SED.git
+  447  git add .
+  448  git config --global user.name HenryMauricio2004
+  449  git config --global user.email 00183223@uca.edu.sv
+  450  git add .
+  451  git commit -Lab 1 SED
+  452  git commit -m "Lab 1 SED"
+  453  git push origin main
+  454  gpg --list-secret-keys
+  455  gpg --output keys.gpg --export 00183223@uca.edu.sv
+  456  gpg --output publicKey.gpg --export 00183223@uca.edu.sv
+  457  gpg --export-secret-keys --armor 00183223@uca.edu.sv > ./my-priv-gpg-key.asc
+  458  gpg --export-secret-keys --armor 00183223@uca.edu.sv > ./secretKey.asc
+  459  gpg --armor --output publicKey.asc --export 00183223@uca.edu.sv
+  460  gpg --output firmaPublica.sig --sign publicKey(copia).asc
+  461  gpg --output firmaPublica.sig --sign "publicKey(copia).asc"
+  462  gpg --output firmaPublica.sig --sign publicKeyCopy.asc
+  463  gpg --output firmaSecreta.sig --detach-sig secretKeyCopy.asc
+  464  gpg --verify secretKeyCopy.asc
+  465  gpg --verify publicKeyCopy.asc
+  466  gpg --verify firmaPublica.sig publicKeyCopy.asc
+  467  gpg --output PreguntasCifradas.txt.gpg --encrypt --recipient 00183223@uca.edu.sv Preguntas.txt
+  468  cat Preguntas.txt
+  469  cat PreguntasCrifradas.txt
+  470  cat PreguntasCrifradas.txt.gpg
+  471  cat PreguntasCifradas.txt.gpg
+  472  cat historyPublicKey.txt
+  473  cat historyPublicKey.txt.gpg
+  474  cat history.txt
+  475  gpg --output history.txt.gpg --symmetric history.txt
+  476  cat history.txt.gpg
+  477  gpg --output history2.txt --decrypt history.txt.gpg
+  478  gpg --output historyPublicKey2.txt --decrypt historyPublicKey.txt.gpg
+  479  gpg --output doc.sig --sign history.txt
+  480  pgp --output doc2.sig --decrypt doc.sig
+  481  gpg --output doc2.sig --decrypt doc.sig
+  482  gpg --output doc.sig --detach-sig history.txt
+  483  gpg --verify doc.sig doc
+  484  gpg --verify doc.sig history.txt
+  485  sudo apt-get install gnupg
+  486  gpg
+  487  gpg --list-keys
+  488  gpg --version
+  489  gpg --full-generate-key 
+  490  gpg --output my_revocation_certification.asc --gen-revoke 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  491  ls
+  492  gpg --list-keys
+  493  gpg --list-secret-keys
+  494  cd Document
+  495  cd Documentos
+  496  ls
+  497  gpg --output doc.gpg --export 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  498  ls
+  499  gpg --output doc.asc --export 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  500  ls
+  501  git clone https://github.com/Cbug18/Llaves.git
+  502  ls
+  503  cd Llaves/
+  504  LS
+  505  Ls
+  506  ls
+  507  gpg --import raulkey.gpg
+  508  gpg --list-keys
+  509  gpg --delete-keys D261F834B93BCE04EDA1881911B9A4AFBE8C624B
+  510  gpg --delete-secret-keys D261F834B93BCE04EDA1881911B9A4AFBE8C624B
+  511  gpg --import raulkey.gpg
+  512  gpg --list-keys
+  513  gpg --list-secret-keys 
+  514  gpg --list-keys
+  515  gpg --delete-keys E24B2574CBE7F8FECEE4AD2BBE4F8D2366582A70
+  516  gpg --delete-secret-keys E24B2574CBE7F8FECEE4AD2BBE4F8D2366582A70
+  517  gpg --list-keys
+  518  gpg --list-keys E24B2574CBE7F8FECEE4AD2BBE4F8D2366582A70
+  519  gpg --delete-keys E24B2574CBE7F8FECEE4AD2BBE4F8D2366582A70
+  520  gpg --list-keys
+  521  gpg --edit-key D261F834B93BCE04EDA1881911B9A4AFBE8C624B
+  522  gpg --list-keys
+  523  ls..
+  524  ls
+  525  cd ..
+  526  mkdir Labo01
+  527  cd Labo01/
+  528  history
+  529  history historyPublicKey.txt
+  530  historyPublicKey.txt
+  531  cat historyPublicKey.txt
+  532  mk historyPublicKey.txt
+  533  touch historyPublicKey.txt
+  534  cat historyPublicKey.txt 
+  535  nano historyPublicKey.txt 
+  536  history
+  537  ls
+  538  touch history.txt
+  539  cat history.txt
+  540  gpg --output history.txt.gpg --symmetric history.txt
+  541  cat history.txt.gpg
+  542  $ cat historyPublicKey.txt
+  543  $ gpg --output historyPublicKey.txt.gpg --encrypt --recipient
+  544  00080323@uca.edu.sv  historyPublicKey.txt
+  545  gpg --output historyPublicKey.txt.gpg --encrypt --recipient 00080323@uca.edu.sv historyPublicKey.txt 
+  546  cat historyPublicKey.txt
+  547  nano historyPublicKey.txt
+  548  cat historyPublicKey.txt.gpg
+  549  gpg --output doc --decrypt history.txt.gory.txt.gpg
+  550  ls
+  551  gpg --output doc --decrypt history.txt.gpg
+  552  ls
+  553  cat doc
+  554  nano soc
+  555  ls
+  556  nano doc
+  557  touch firma.txt
+  558  nano firma.txt 
+  559  gpg --output doc.sig --sign firma.txt
+  560  cd ..
+  561  git clone https://github.com/Pabloo-04/Lab1SED.git
+  562  ls}
+  563  ls
+  564  cd Lab1SED/
+  565  $ gpg --output doc.gpg --export 
+  566  gpg --list-key
+  567  gpg --output doc.gpg --export 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  568  gpg --output doc.asc --export 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  569  cp doc.gpg
+  570  cp doc.gpg ./
+  571  cp doc.gpg ./doc_copy.gpg
+  572  cat doc.gpg
+  573  cat doc_copy.gpg 
+  574  cp doc.asc ./doc_copy.asc
+  575  cat doc.asc
+  576  cat doc_copy.asc
+  577  ls
+  578  gpg --output doc_copy --decrypt doc_copy.gpg.sig
+  579  gpg --output doc_copy_bin.sig --sign  doc_copy.gpg.
+  580  ls
+  581  gpg --output doc_copy_bin.sig --sign  doc_copy.gpg
+  582  gpg --output doc_copy_asc.sig --sign  doc_copy.asc
+  583  rm doc_copy_asc.sig
+  584  ls
+  585  gpg --output doc_copy_asc-sig --detach-sig doc_copy.asc
+  586  ls
+  587  rm doc_copy_asc-sig
+  588  gpg --output doc_copy_asc.sig --detach-sig doc_copy.asc
+  589  gpg --verify doc_copy_asc-sig doc_copy.asc
+  590  gpg --verify doc_copy_asc.sig doc_copy.asc
+  591  touch reporte.txt
+  592  nano reporte.txt
+  593  gpg --output reporte.gpg --encrypt --recipient 00080322@uca.edu.sv reporte.txt
+  594  gpg --output reporte.gpg --encrypt --recipient 00080323@uca.edu.sv reporte.txt
+  595  cat reporte.gpg
+  596  gpg --list-key
+  597  gpg --armor --export 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  598  git config --global --unset gpg.format
+  599  gpg --list-secret-keys --keyid-format=long
+  600  git config --global user.signingkey 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  601  git config --global commit.gpgsign true
+  602  git config --global tag.gpgSign true
+  603  ls
+  604  rm reporte.gpg
+  605  gpg --output reporte.gpg --encrypt --recipient 00006422@uca.edu.sv reporte.txt
+  606  ls
+  607  git add .
+  608  git commit -m "Adding signed keys and report" -S
+  609  git push
+  610  gpg --list-keys
+  611  git config --global --unset user.name
+  612  git config --global --unset user.email
+  613  git push
+  614  git add .
+  615  git commit -m "Adding stuff" -S
+  616  git config --global  user.email "00080323@uca.edu.sv"
+  617  git config --global  user.name "Pabloo-04"
+  618  git add .
+  619  git commit -m "Adding stuff" -S
+  620  nano reporte.txt
+  621  git commit -m "Adding stuff" -S
+  622  git add .
+  623  git commit -m "Adding stuff" -S
+  624  git push 
+  625  git config --global --unset user.name
+  626  git config --global --unset user.email
+  627  gpg --v
+  628  gpg --version
+  629  gpg --full-generate-key
+  630  gpg --output my_revocation_certificate.asc --gen-revoke 17ED1371431F776446307E59F16689D8D87B20B9
+  631  $ gpg --list-keys
+  632  $ gpg --list-secret-keys
+  633  gpg --list-secret-keys
+  634  gpg --list-keys
+  635  gpg --delete-secret-keys 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  636  gpg --delete-keys 952CAD36D99AA7EB8F1F805BD12A7687EB0FA59C
+  637  gpg --delete-keys D261F834B93BCE04EDA1881911B9A4AFBE8C624B
+  638  gpg --delete-keys 6786E57935FE61319CA19FF319F9D34C9DF23810
+  639  gpg --list-keys
+  640  gpg --list-secret-keys
+  641  cd ./Labo1Sed-René/
+  642  gpg --output doc.gpg --export 17ED1371431F776446307E59F16689D8D87B20B9
+  643  gpg --armor --output doc.asc --export 17ED1371431F776446307E59F16689D8D87B20B9
+  644  gpg --export-secret-keys --armor 17ED1371431F776446307E59F16689D8D87B20B9 > ./my-priv-gpg-key.asc
+  645  gpg --list-keys
+  646  gpg --edit-key D261F834B93BCE04EDA1881911B9A4AFBE8C624B
+  647  gpg --list-keys
+  648  gpg --output XD.gpg --symmetric doc
+  649  gpg --output XD.gpg --symmetric XD
+  650  history > XD.txt
+  651  cat XD
+  652  cat XD.txt
+  653  gpg --output XD.txt.gpg --symmetric XD.txt
+  654  cat XD.txt.gpg
+  655  history > LOL.txt
+  656  cat LOL.txt
+  657  gpg --output LOL.txt.gpg --encrypt --recipient 00360422@uca.edu.sv LOL.txt
+  658  cat LOL.txt
+  659  cat LOL.txt.asc
+  660  cat LOL.txt.gpg
+  661  gpg --output docSimetrico --decrypt XD.txt.gpg
+  662  gpg --output docAsimetrico --decrypt LOL.txt.gpg
+  663  history > firma.txt
+  664  gpg --output firma.txt.sig --sign firma.txt
+  665  gpg --output firma.txt --decrypt firma.txt.sig
+  666  history > firmaDesacoplada.txt
+  667  gpg --output firmaDesacoplada.txt.sig --detach-sig firmaDesacoplada.txt
+  668  gpg --verify firmaDesacoplada.txt.sig firmaDesacoplada.txt
+  669  cd ../
+  670  git clone https://github.com/Rene545/labo1SED.git
+  671  cd ./labo1SED/
+  672  git user
+  673  git -help
+  674  git --help
+  675  git config --global --unset user.name
+  676* git config --global user.email
+  677  git config --global user.name Rene545
+  678  git config --global user.email 00360422@uca.edu.sv
+  679  gpg --list-keys
+  680  gpg --armor --output labo1Sed.asc --export 17ED1371431F776446307E59F16689D8D87B20B9
+  681  gpg --export-secret-keys --armor 17ED1371431F776446307E59F16689D8D87B20B9 > ./labo1Sed.asc
+  682  gpg --armor --output labo1SedPublica.asc --export 17ED1371431F776446307E59F16689D8D87B20B9
+  683  gpg --armor --output labo1SedPublicaCopia.asc --export 17ED1371431F776446307E59F16689D8D87B20B9
+  684  gpg --export-secret-keys --armor 17ED1371431F776446307E59F16689D8D87B20B9 > ./labo1SedCopia.asc
+  685  gpg --edit-key 17ED1371431F776446307E59F16689D8D87B20B9
+  686  gpg --output labo1SedCopiaFirmado.sig --sign labo1SedCopia.asc
+  687  gpg --output labo1SedPublicaCopiaFirmado.sig --sign labo1SedPublicaCopia.asc
+  688  history > reporte.txt
